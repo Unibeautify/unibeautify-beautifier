@@ -1,6 +1,6 @@
-import * as atomPackageDeps from "atom-package-deps";
-
+declare function require(name:string): any;
 declare var global: any;
+
 export function isAtomProcess(): boolean {
   return !!global.atom;
 }
@@ -45,6 +45,7 @@ export function makeAtomBeautifier(pkg: PackageJSON, Beautifier: Beautifier, con
   return {
     config,
     activate: () => {
+      const atomPackageDeps = require("atom-package-deps");
       atomPackageDeps.install(pkg.name)
         .then(function() {
           console.log("All dependencies installed, good to go");
