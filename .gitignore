@@ -2,7 +2,8 @@
 **/*.js
 **/*.js.map
 **/*.d.ts
-typings
+typings/globals/
+typings/modules/
 !typings/custom/**/*.d.ts
 docs
 
