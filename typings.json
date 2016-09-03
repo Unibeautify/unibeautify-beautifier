@@ -1,0 +1,7 @@
+{
+  "globalDependencies": {
+  },
+  "dependencies": {
+    "atom-package-deps": "file:typings/custom/atom-package-deps.d.ts"
+  }
+}
