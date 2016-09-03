@@ -1,6 +1,6 @@
 {
   "name": "unibeautify-beautifier",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Wrapper for a Unibeautify Beautifier ",
   "main": "src/index.js",
   "scripts": {
