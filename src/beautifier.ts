@@ -1,4 +1,4 @@
-declare function require(name:string): any;
+declare function require(name: string): any;
 declare var global: any;
 
 export function isAtomProcess(): boolean {
