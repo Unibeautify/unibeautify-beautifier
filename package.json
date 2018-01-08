@@ -3,7 +3,9 @@
   "version": "0.1.2",
   "description": "Wrapper for a Unibeautify Beautifier ",
   "main": "src/index.js",
+  "typings": "src/index.d.ts",
   "scripts": {
+    "build": "npm run compile",
     "compile": "tsc",
     "test": "echo \"Error: no test specified\" && exit 0",
     "docs": "typedoc --out docs --includeDeclarations typings/*.ts --module commonjs src",
