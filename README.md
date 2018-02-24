@@ -1,4 +1,6 @@
 # Unibeautify-beautifier
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/Unibeautify/unibeautify-beautifier.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.org/Unibeautify/unibeautify-beautifier.svg?branch=master)](https://travis-ci.org/Unibeautify/unibeautify-beautifier)
 
 > Wrapper for a Unibeautify Beautifier
